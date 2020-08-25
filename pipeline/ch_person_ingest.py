@@ -2,8 +2,7 @@
 Author: David Whitehouse (dave@davewhitehouse.co.uk)
 Date:   23 Aug 2020
 Scope: Simple script to ingest the monthly json list from Companies House containing details of all
-UK persons with significant control. Parses the document and upserts the contents into the existing
-companies ingest using company number as the key.
+UK persons with significant control.
 """
 
 from elasticsearch import helpers, Elasticsearch
